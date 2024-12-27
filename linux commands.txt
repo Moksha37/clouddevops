@@ -1,0 +1,99 @@
+Linux commands=
+---------------
+ls = lists directory contents
+cd = change the current directory
+pwd = prints the current directory path
+mkdir = creates new directories	
+touch = creates empty files
+cp = copies files or directories
+mv = moves or renames files/directories
+rm = removes files/directories
+in = creates hard or symbolic links between files
+
+Searching and viewing files=
+----------------------------
+
+grep = searches for pattern in files
+cat = displays or concatenate file contents			
+less = opens files for paginated viewing
+head = displays the first few lines of a file
+tail = displays the last few lines of a file
+
+
+cd commands=
+------------
+su = switch user 
+id = print user
+passwd = chage password
+man = manual pages  man <command>
+info = information pages info <command>
+command -- help = basic help by author    is --help, man --help
+
+ps = process information
+free =memory information free -,
+cal = calendar information cal,cal 2009
+head = output the first part of  files head[-n<lines>] <filename>
+tail = output the last part of  files tail[-n<lines>] <filename>
+cat = concatenate/display files
+clear = clears the sscreen
+date = see/modify system date & time  date,date[MMDDhhmm[[CC]YY][ss]]
+df = disk space usage df -h
+du = file space usage du -sh
+uname = print system info uname[-a,-s,-n,-r,-v,-m]
+echo = display the line or text
+exit = exit the current session/shell
+file = determine file type
+hostname = show or set the system hostname
+chsh = change your login shell
+alias = setting command aliases
+whoami = print user id
+find = finding files and directories
+chmod = changing permissions of files/directories
+chown = changing ownership o files/directories
+chgrp = changing group ownership of files/directories
+
+-------------------------------------------------------
+
+Networking =
+------------
+curl = transfers data between systems
+ssh = logs into remote servers securely
+scp = copies files securely across servers
+ping = Tests network connectivity
+dig = performs DNS lookups
+netstat = desplays network statistics
+ifconfig = configures network interfaces
+nc = netcat utility for reading/writing over the network 
+
+System administrations=
+-----------------------
+chown = changes file ownership
+chgrp = changes group ownership
+ps = lists running processes
+top = Monitors system performance
+kill = terminates processes
+df = display disk usage
+du = Eliminates file/directory size
+free = shows memory usage
+uname = prints system information
+isof = lists open files and processes
+
+
+user management=
+---------------
+passwd = changes users password
+su = switch to another user
+sudo = executes commands as another user
+usermod = modifies user accounts
+groupadd = creates a new group
+id = display user and group ID's
+
+scheduling and automation:
+--------------------------
+at = schedules one time tasks
+history = displays command history
+
+security:
+---------
+iptables = configures the firewall
+ssh-agent : management SSH keys in memory
